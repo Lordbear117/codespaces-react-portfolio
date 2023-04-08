@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "build-gh": "parcel build --public-url 'https://{github-username}.github.io/{repo-name}'",
+    "build-gh": "parcel build --public-url 'https://grizzlybyte.me/{repo-name}'",
     "predeploy": "rm -rf dist && parcel build src/index.html --no-source-maps --public-url ./",
     "deploy": "gh-pages -d dist"
   },
