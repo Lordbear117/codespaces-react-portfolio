@@ -24,8 +24,9 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "César Castro",
+  name: "César F. Castro Parada",
   title: "Software Developer",
+  title2: "GrizzlyByte Founder",
   email: "cesar.castroparada@gmail.com",
   gitHub: "lordbear117",
   instagram: "",
@@ -42,7 +43,7 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
+      <Home name={siteProps.name} title={siteProps.title} title2={siteProps.title2} />
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
