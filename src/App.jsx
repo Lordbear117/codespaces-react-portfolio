@@ -26,11 +26,11 @@ import "./styles.css";
 const siteProps = {
   name: "César Castro",
   title: "Software Developer",
-  email: "alex@example.com",
+  email: "cesar.castroparada@gmail.com",
   gitHub: "lordbear117",
   instagram: "",
   linkedIn: "cesar-castro-dev",
-  medium: "",
+  medium: "https://medium.com/@lordbear117",
   twitter: "",
   youTube: "",
 };
