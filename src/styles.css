@@ -16,6 +16,7 @@ body {
 div#main {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 section {
@@ -35,7 +36,7 @@ section.light {
 }
 
 section img.background {
-  width: 100vmax;
+  width: 100%;
   height: 100%;
   z-index: -1;
   position: absolute;
@@ -105,8 +106,10 @@ a:hover {
 .container {
   margin: 20px auto;
   display: grid;
-  grid-template-columns: 330px 300px;
+  grid-template-columns: 330px;
   grid-gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
 
 .container .box {

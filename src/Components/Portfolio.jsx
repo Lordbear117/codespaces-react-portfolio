@@ -8,6 +8,14 @@
  * as you continue to learn and create.
  */
 
+/* <div style={{ maxWidth: "40%", alignSelf: "end" }}>
+          <img
+            src={image}
+            style={{ height: "90%", width: "100%", objectFit: "center" }}
+            alt={imageAltText}
+          />
+        </div> */
+
 import React from "react";
 
 /**
@@ -19,9 +27,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/portfolio.png";
+// import image from "../images/portfolio.png";
 
-const imageAltText = "desktop with books and laptop";
+// const imageAltText = "desktop with books and laptop";
 
 /**
  * Project list
@@ -32,26 +40,22 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "Lorem Ipsum 🎉",
-    description:
-      "Loren Ipsum Dolor Sit Amet.",
+    description: "Loren Ipsum Dolor Sit Amet.",
     url: "",
   },
   {
     title: "Lorem Ipsum",
-    description:
-    "Loren Ipsum Dolor Sit Amet.",
+    description: "Loren Ipsum Dolor Sit Amet.",
     url: "",
   },
   {
     title: "Lorem Ipsum",
-    description:
-    "Loren Ipsum Dolor Sit Amet.",
+    description: "Loren Ipsum Dolor Sit Amet.",
     url: "",
   },
   {
     title: "Lorem Ipsum",
-    description:
-    "Loren Ipsum Dolor Sit Amet.",
+    description: "Loren Ipsum Dolor Sit Amet.",
     url: "",
   },
 ];
@@ -60,14 +64,7 @@ const Portfolio = () => {
   return (
     <section className="light" id="portfolio">
       <h2>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
-        </div>
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem", flexwrap: "wrap" }}>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
