@@ -31,7 +31,7 @@ const siteProps = {
   gitHub: "lordbear117",
   instagram: "",
   linkedIn: "cesar-castro-dev",
-  medium: "https://medium.com/@lordbear117",
+  medium: "@lordbear117",
   twitter: "",
   youTube: "",
 };
