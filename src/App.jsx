@@ -26,7 +26,7 @@ import "./styles.css";
 const siteProps = {
   name: "César F. Castro Parada",
   title: "Software Developer",
-  title2: "GrizzlyByte Founder",
+  title2: "",
   email: "cesar.castroparada@gmail.com",
   gitHub: "lordbear117",
   instagram: "",
